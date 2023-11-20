@@ -1,0 +1,28 @@
+@import "common.css";
+
+
+.h3-container {
+    background-image: linear-gradient(rgba(148,189,214,1)  10%, 80%, rgba(255,255,255,1) 120%);
+    text-align: center;
+    padding: 10px;
+    width:calc(100% - 30px)
+}
+
+.picture-container {
+    border: 1px solid black;
+    border-radius: 15px 15px 0 0;
+    margin: 25px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.picture-container h4 {
+    background-color: var(--harder-blue);
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+    padding: 16px;
+}
+
+.picture-container figure img {
+    border-radius: 50%;
+}
