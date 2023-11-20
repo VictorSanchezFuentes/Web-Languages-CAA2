@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 
 :root {
-    --widthA: 10px;
-    --widthB: calc(var(--widthA)-5px);
-    --widthC: calc(var(--widthB) -2px);
     --harder-blue: #94BDD6;
     --baby-white: #EBEBFF;
     --baby-blue:#EBF7FF;
@@ -17,7 +14,6 @@ html {
 }
 
 header {
-
     background-image: url("../images/cabecera.jpg");
     background-size: cover;
     background-repeat: no-repeat;
