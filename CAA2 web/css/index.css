@@ -29,12 +29,9 @@ h3+ul li{
     padding-left: 44px;
 }
 
-h3+ul li span, h3+ul li{
+.list-display {
     font-size: 16px;
     line-height: 25px;
-}
-
-.list-display {
     display: table-cell;
     vertical-align: middle;
 }
@@ -82,7 +79,6 @@ blockquote p {
 }
 
  .press-releases div .quotes { /*blockquote span*/
-    background-color: none;
     position: relative;
     top: 50px;
     line-height: 0;
@@ -97,22 +93,25 @@ blockquote p {
     font-size: x-small;
 }
 
-.schools-images span {
+.schools-images .single-school-image {
     display: inline-block;
     border: 1px solid grey;
     max-width: 24%;
     min-width: 24%;
 }
 
-.schools-images span a img {
+
+.schools-images  .single-school-image a img {
     max-width: 100%;
     min-height: 90px;
     object-fit: contain;
 }
 
 .school-images-foot {
+    display: block;
     background-color: blue;
     text-align: center;
+    margin: 0;
     margin-bottom: 5px;
     width: 100%;
 }
