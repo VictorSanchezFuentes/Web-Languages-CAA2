@@ -34,22 +34,28 @@ nav {
 
 nav ul {
     list-style: none;
-    width: 100%;
+}
+
+nav ul li {
+    
+    padding: 10px 0;
+}
+
+nav ul li.active-link {
+    transition-timing-function: ease-in-out;
+    transition: padding-left 1s, width 1s, background-color 1s;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
 
 nav ul li.active-link:hover {
-    padding-left: 40px;
-    width: 100%;
     background-color: var(--harder-blue);
-    padding-left: 10px;
-    transition: ease-in-out;
-    width: 150px;
+    padding-left: 20px;
+    width: calc(100% - 20px);
 
 }
-
-
-
-
 
 main {
     border-left: 2px solid var(--baby-blue);
@@ -82,12 +88,15 @@ body {
 footer {
     display: block;
     background-color: var(--harder-blue);
-    color: white;
+    color: var(--baby-white);
     height: 20%;
 }
 
 footer a, footer a:hover, footer a:focus {
-    color: white;
+    color: var(--baby-white);
+    font-style: italic;
+    text-decoration: none;
+
 }
 
 
@@ -99,12 +108,12 @@ footer div {
     padding: 10px;
 }
 
-.footer-group-right {
+.footer-group-left {
     text-align: right;
     border-right: 1px white solid;
     width: calc(50% - 23px);
 }
 
-.footer-group-left {
+.footer-group-right {
     width: calc(50% - 22px);
 }
